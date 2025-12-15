@@ -37,3 +37,9 @@ html, body {
     padding: 10px;
     white-space: pre-wrap;
 }
+
+.success-graphic {
+    display: none;
+    width: 100px;
+    height: 100px;
+}

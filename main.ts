@@ -55,6 +55,9 @@ document.querySelector('.run-button')?.addEventListener('click', event => {
     Weight: ${Number(creature1.age.value) + Number(creature2.age.value)}kg
     Food: ${[creature1.food.value, creature2.food.value][Math.floor(Math.random() * 2)]}
     `;
+
+    let image = document.querySelector('.success-graphic') as HTMLElement;
+    image.style.display = 'block';
 });
 
 /**
